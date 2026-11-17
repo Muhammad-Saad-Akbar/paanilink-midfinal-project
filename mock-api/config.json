@@ -1,0 +1,61 @@
+{
+  "appName": "PaaniLink",
+  "city": "Karachi",
+  "sizes": [
+    1000,
+    3000,
+    6000
+  ],
+  "slotMinutes": 90,
+  "currency": "PKR",
+  "proofTypes": [
+    "Income certificate",
+    "Utility bill",
+    "Hospital registration",
+    "Mosque registration",
+    "Other supporting document"
+  ],
+  "failureReasons": [
+    "House locked",
+    "Road blocked",
+    "Customer unavailable",
+    "Vehicle breakdown",
+    "Incorrect address",
+    "Other"
+  ],
+  "roles": [
+    "Customer",
+    "Zone Officer",
+    "Hydrant Operator",
+    "Driver",
+    "Administrator"
+  ],
+  "statusOrder": [
+    "Pending",
+    "Approved",
+    "Assigned",
+    "Filled",
+    "Arrived",
+    "Delivered",
+    "Confirmed"
+  ],
+  "statuses": [
+    "Pending",
+    "Approved",
+    "Assigned",
+    "Filled",
+    "Arrived",
+    "Delivered",
+    "Failed",
+    "Confirmed",
+    "Disputed",
+    "Cancelled",
+    "Rejected"
+  ],
+  "defaultMonthlySubsidyLimit": 2,
+  "customerCategories": [
+    "Household",
+    "Hospital",
+    "Mosque"
+  ]
+}

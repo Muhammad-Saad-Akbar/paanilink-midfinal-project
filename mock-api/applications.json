@@ -1,0 +1,4 @@
+[
+ {"id":"app-001","customerId":"u1","proofType":"Income certificate","proofReference":"Household income verification no. 874","proofName":"income-proof.pdf","proofDataUrl":"","status":"Approved","submittedOffsetDays":-30,"reviewedBy":"u3","reviewNote":"Documents verified"},
+ {"id":"app-002","customerId":"u2","proofType":"Utility bill","proofReference":"BILL-DEMO-1002","proofName":"utility-bill.pdf","proofDataUrl":"","status":"Pending","submittedOffsetDays":-2,"reviewedBy":null,"reviewNote":""}
+]

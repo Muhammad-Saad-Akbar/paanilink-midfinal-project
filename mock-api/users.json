@@ -1,0 +1,133 @@
+[
+  {
+    "id": "u1",
+    "name": "Ayesha Khan",
+    "email": "ayesha@demo.test",
+    "password": "demo123",
+    "role": "Customer",
+    "cnic": "4210112345671",
+    "phone": "03001234567",
+    "address": "House 17, Sector 7",
+    "zoneId": "z1",
+    "subsidyStatus": "Approved",
+    "monthlyLimit": 2,
+    "hydrantId": null,
+    "status": "Active",
+    "customerType": "Household"
+  },
+  {
+    "id": "u2",
+    "name": "Bilal Ahmed",
+    "email": "bilal@demo.test",
+    "password": "demo123",
+    "role": "Customer",
+    "cnic": "4210112345672",
+    "phone": "03001234568",
+    "address": "House 39, Block 13",
+    "zoneId": "z2",
+    "subsidyStatus": "Pending",
+    "monthlyLimit": 2,
+    "hydrantId": null,
+    "status": "Active",
+    "customerType": "Household"
+  },
+  {
+    "id": "u3",
+    "name": "Sana Raza",
+    "email": "officer@demo.test",
+    "password": "demo123",
+    "role": "Zone Officer",
+    "phone": "03001234569",
+    "zoneId": "z1",
+    "hydrantId": null,
+    "status": "Active"
+  },
+  {
+    "id": "u4",
+    "name": "Hassan Ali",
+    "email": "operator@demo.test",
+    "password": "demo123",
+    "role": "Hydrant Operator",
+    "phone": "03001234570",
+    "zoneId": null,
+    "hydrantId": "h1",
+    "status": "Active"
+  },
+  {
+    "id": "u5",
+    "name": "Imran Shah",
+    "email": "driver@demo.test",
+    "password": "demo123",
+    "role": "Driver",
+    "phone": "03001234571",
+    "zoneId": null,
+    "hydrantId": "h1",
+    "status": "Active"
+  },
+  {
+    "id": "u6",
+    "name": "City Admin",
+    "email": "admin@demo.test",
+    "password": "demo123",
+    "role": "Administrator",
+    "phone": "03001234572",
+    "zoneId": null,
+    "hydrantId": null,
+    "status": "Active"
+  },
+  {
+    "id": "u7",
+    "name": "Zara Hussain",
+    "email": "officer2@demo.test",
+    "password": "demo123",
+    "role": "Zone Officer",
+    "phone": "03001234573",
+    "zoneId": "z2",
+    "hydrantId": null,
+    "status": "Active"
+  },
+  {
+    "id": "u8",
+    "name": "Naveed Malik",
+    "email": "driver2@demo.test",
+    "password": "demo123",
+    "role": "Driver",
+    "phone": "03001234574",
+    "zoneId": null,
+    "hydrantId": "h1",
+    "status": "Active"
+  },
+  {
+    "id": "u9",
+    "name": "Fahad Qureshi",
+    "email": "operator2@demo.test",
+    "password": "demo123",
+    "role": "Hydrant Operator",
+    "phone": "03001234575",
+    "zoneId": null,
+    "hydrantId": "h2",
+    "status": "Active"
+  },
+  {
+    "id": "u10",
+    "name": "Hina Noor",
+    "email": "officer3@demo.test",
+    "password": "demo123",
+    "role": "Zone Officer",
+    "phone": "03001234576",
+    "zoneId": "z3",
+    "hydrantId": null,
+    "status": "Active"
+  },
+  {
+    "id": "u11",
+    "name": "Arif Iqbal",
+    "email": "driver3@demo.test",
+    "password": "demo123",
+    "role": "Driver",
+    "phone": "03001234577",
+    "zoneId": null,
+    "hydrantId": "h2",
+    "status": "Active"
+  }
+]

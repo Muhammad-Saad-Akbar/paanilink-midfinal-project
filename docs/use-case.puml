@@ -1,0 +1,63 @@
+@startuml
+left to right direction
+skinparam backgroundColor white
+skinparam usecase {
+ BackgroundColor #EAF6F2
+ BorderColor #237B76
+ FontColor #163A44
+}
+skinparam actor {
+ BorderColor #224C58
+ FontColor #163A44
+}
+actor Customer as C
+actor "Zone Officer" as Z
+actor "Hydrant Operator" as H
+actor Driver as D
+actor Administrator as A
+rectangle "PaaniLink · Water Tanker Booking & Dispatch" {
+  usecase "Register / Log in" as ULogin
+  usecase "Book commercial tanker" as UCommercial
+  usecase "Apply for subsidy" as UApply
+  usecase "Book subsidised tanker" as USubsidy
+  usecase "View own bills / booking trace" as UHistory
+  usecase "Cancel / Confirm / Dispute" as UCustomerActions
+  usecase "Verify subsidy" as UVerify
+  usecase "Approve / Reject subsidised booking" as UApprove
+  usecase "Resolve zone dispute" as UResolve
+  usecase "View zone bookings" as UZone
+  usecase "Assign tanker and driver" as UAssign
+  usecase "Record fill and departure" as UFill
+  usecase "Set fleet / hydrant availability" as UAvail
+  usecase "View assigned trips only" as UTrips
+  usecase "Mark Arrived / Delivered / Failed" as UDriverActions
+  usecase "Manage zones, hydrants, quotas" as UManage
+  usecase "Manage fleet, rates, users" as UAdmin
+  usecase "City-wide reports" as UReports
+}
+C --> ULogin
+C --> UCommercial
+C --> UApply
+C --> USubsidy
+C --> UHistory
+C --> UCustomerActions
+Z --> ULogin
+Z --> UVerify
+Z --> UApprove
+Z --> UResolve
+Z --> UZone
+H --> ULogin
+H --> UAssign
+H --> UFill
+H --> UAvail
+D --> ULogin
+D --> UTrips
+D --> UDriverActions
+A --> ULogin
+A --> UManage
+A --> UAdmin
+A --> UReports
+USubsidy .> UVerify : depends on eligibility
+UAssign .> UApprove : subsidised bookings
+UCustomerActions .> UDriverActions : after delivery
+@enduml

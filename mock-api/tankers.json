@@ -1,0 +1,8 @@
+[
+ {"id":"t1","plate":"KHI-1042","size":1000,"hydrantId":"h1","status":"Available"},
+ {"id":"t2","plate":"KHI-3008","size":3000,"hydrantId":"h1","status":"Available"},
+ {"id":"t3","plate":"KHI-6011","size":6000,"hydrantId":"h1","status":"Available"},
+ {"id":"t4","plate":"KHI-2099","size":3000,"hydrantId":"h2","status":"Available"},
+ {"id":"t5","plate":"KHI-7012","size":6000,"hydrantId":"h3","status":"Available"},
+ {"id":"t6","plate":"KHI-1055","size":1000,"hydrantId":"h2","status":"Unavailable"}
+]

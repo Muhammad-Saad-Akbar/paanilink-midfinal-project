@@ -1,0 +1,5 @@
+[
+ {"id":"h1","name":"North Hub Hydrant","zoneIds":["z1","z2"],"openTime":"06:00","closeTime":"22:00","quotaDaily":24000,"status":"Available","location":"North Karachi, Sector 7"},
+ {"id":"h2","name":"Gulshan Central Hydrant","zoneIds":["z2"],"openTime":"07:00","closeTime":"21:00","quotaDaily":18000,"status":"Available","location":"Gulshan Block 13"},
+ {"id":"h3","name":"Coastal Hydrant","zoneIds":["z3"],"openTime":"08:00","closeTime":"20:00","quotaDaily":18000,"status":"Available","location":"Clifton Block 4"}
+]
